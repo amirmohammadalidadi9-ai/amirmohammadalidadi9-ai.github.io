@@ -1,0 +1,128 @@
+*{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #fcdc60;
+    list-style: none;
+    text-align: center;
+}
+h1 {
+    font-size: 20px;
+}
+
+#summery {
+    font-size: 100px;
+}
+textarea{
+    display: flexbox;
+}
+header {
+    border: 2px solid ;
+    border-radius: 15px;
+    padding: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+header h1 {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 2px;
+}
+#job {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    margin-bottom: 30px;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 80%;
+    width: fit-content;
+    margin: 0 auto;
+    
+}
+
+td{
+    border: 1px solid ;
+    padding: 10px;
+}
+#job{
+    margin-bottom: 30px;
+}
+
+#summary {
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    border: 2px solid #FAFAD2;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#summary h2 {
+    margin-bottom: 25px;
+}
+
+#summary p {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+section ul {
+    padding: 0;
+}
+
+section li {
+    border: 1px solid #FAFAD2;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+footer {
+    margin-top: 40px;
+    padding: 30px;
+    border-top: 2px solid #FAFAD2;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+footer a:hover {
+    color: #FFD700;
+    text-decoration: underline;
+}
+header h1,
+#job {
+    text-align: center;
+    font-weight: bold;
+
+}
+#experiences {
+    width: fit-content;
+    margin: 40px auto;
+}
+section:last-child {
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    border: 2px solid #FAFAD2;
+    border-radius: 15px;
+}
+form input[type="submit"]:hover {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
